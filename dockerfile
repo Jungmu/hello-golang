@@ -1,5 +1,5 @@
 # 1
-FROM golang:alpine as builder
+FROM alpine:latest
 WORKDIR /root/app
 COPY ./hello-go .
 CMD ["./hello-go"]
